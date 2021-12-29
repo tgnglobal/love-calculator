@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Love Calculator</title>
+  <link rel="icon" href="love.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1><img id="logo" src="love.png" alt="logo"> Love Calculator</h1>
+    <p>Place your name on the first input and your partner's name on the second input to know how your relationship with him or her will end.</p>
+
+    <form id="loveForm">
+      <div class="form-input">
+        <input id="inputOne" type="text" placeholder="Your name" autofocus>
+        <input id="inputTwo" type="text" placeholder="Your partner's name">
+      </div>
+      <button id="check-btn">Check Percentage</button>
+    </form>
+    <div class="preview">
+      <h3>Result <span id="percentage">0</span>%</h3>
+      <div class="result-container">
+        <p id="result">Your result will appear here!</p>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

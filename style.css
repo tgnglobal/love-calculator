@@ -1,0 +1,108 @@
+body {
+  background-color: pink;
+  color: #fff;
+  font-family: Arial;
+}
+
+p {
+  color: #555;
+}
+
+h1 {
+  font-size: 1.6rem;
+}
+h1, h3 {
+  text-shadow: 0 0 3px #333;
+}
+
+h3 {
+  text-align: center;
+}
+
+#logo {
+  width: 2rem;
+}
+
+.container {
+  border: 2px solid #333;
+  height: auto;
+  margin: 2rem auto;
+  padding: 0 1rem 1rem;
+  max-width: 30rem;
+}
+
+#loveForm {
+  margin-top: 3rem;
+}
+
+.form-input {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.form-input input {
+  border: 1px solid #555;
+  outline: none;
+  width: 12rem;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+}
+
+.form-input input:focus {
+  box-shadow: 0 3px 3px #777;
+}
+
+button {
+  display: block;
+  margin: auto;
+  border: none;
+  outline: none;
+  background: pink;
+  box-shadow: 0 2px 5px #777;
+  cursor: pointer;
+  color: #666;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+}
+
+button:active {
+  box-shadow: inset 0 0 5px #777;
+  color: #fff;
+}
+
+.preview {
+  margin: 2rem 0 0;
+}
+
+.result-container {
+  border: 1px solid #555;
+  padding: 0 1rem;
+  text-align: justify;
+}
+
+#percentage {
+  color: #f00;
+  margin-left: 3rem;
+}
+
+
+@media (max-width: 480px) {
+  .container {
+    margin: 1rem;
+  }
+
+  .form-input {
+    flex-wrap: wrap;
+  }
+
+  .form-input input {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .form-input input:last-child {
+    width: 100%;
+    margin-bottom: 0;
+  }
+}
